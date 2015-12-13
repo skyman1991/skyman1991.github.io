@@ -4,22 +4,44 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Secret Garden</title>
+    <title>C语言的一些语法 | Secret Garden</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="ChenHao">
     
 
     
-    <meta name="description" content="IT Python C Linux LOL">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Secret Garden">
-<meta property="og:url" content="http://yoursite.com/index.html">
+    <meta name="description" content="C语言的一些语法最近在看Linux内核，发现内核代码中有一些语法之前都没怎么接触过，特意查了一下，做个总结。主要有以下几个:
+
+内联函数
+satic函数
+函数指针与指针函数
+带参数的宏定义
+typdef用法
+void指针">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C语言的一些语法">
+<meta property="og:url" content="http://yoursite.com/2015/11/16/C语言的一些语法/index.html">
 <meta property="og:site_name" content="Secret Garden">
-<meta property="og:description" content="IT Python C Linux LOL">
+<meta property="og:description" content="C语言的一些语法最近在看Linux内核，发现内核代码中有一些语法之前都没怎么接触过，特意查了一下，做个总结。主要有以下几个:
+
+内联函数
+satic函数
+函数指针与指针函数
+带参数的宏定义
+typdef用法
+void指针">
+<meta property="og:updated_time" content="2015-12-10T16:38:21.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Secret Garden">
-<meta name="twitter:description" content="IT Python C Linux LOL">
+<meta name="twitter:title" content="C语言的一些语法">
+<meta name="twitter:description" content="C语言的一些语法最近在看Linux内核，发现内核代码中有一些语法之前都没怎么接触过，特意查了一下，做个总结。主要有以下几个:
+
+内联函数
+satic函数
+函数指针与指针函数
+带参数的宏定义
+typdef用法
+void指针">
 
     
     
@@ -71,177 +93,118 @@
 </div>
     </header>
     <div id="container">
-      <div id="main">
-
+      <div id="main" class="post" itemscope itemprop="blogPost">
   
-<section class="post" itemscope itemprop="blogitem">
-  
-    <a href="/2015/12/13/gh60折腾计/" title="" itemprop="url">
-  
-    <h1 itemprop="name"></h1>
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
     
-     
-           <p itemprop="description" >GH60折腾记前言从去年11月份吧，入了机械键盘的坑，之后就一直剁手，相继买了达尔优机械师黑轴，高斯87茶轴。poker2红轴，后来poker2跟别人换了个青轴回来。直到前几天，想折腾客制化了，直接出手poker2，今天中午（2015.12.8）下单了。现在等着收货。接下来的若干</p>
-        
+      <a href="/2015/11/16/C语言的一些语法/" title="C语言的一些语法" itemprop="url">C语言的一些语法</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="ChenHao" target="_blank" itemprop="author">ChenHao</a>
+		
+  <p class="article-time">
+    <time datetime="2015-11-15T16:24:24.000Z" itemprop="datePublished"> 发表于 2015-11-16</time>
     
-    <time datetime="2015-12-13T06:33:54.000Z" itemprop="datePublished">2015-12-13</time>
-  </a>
-</section>
-
-
-
-
-
-
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#C语言的一些语法"><span class="toc-number">1.</span> <span class="toc-text">C语言的一些语法</span></a></li></ol>
+		
+		</div>
+		
+		<h2 id="C语言的一些语法">C语言的一些语法</h2><p>最近在看Linux内核，发现内核代码中有一些语法之前都没怎么接触过，特意查了一下，做个总结。<br>主要有以下几个:</p>
+<ul>
+<li>内联函数</li>
+<li>satic函数</li>
+<li>函数指针与指针函数</li>
+<li>带参数的宏定义</li>
+<li>typdef用法</li>
+<li>void指针</li>
+</ul>
   
-<section class="post" itemscope itemprop="blogitem">
-  
-    <a href="/2015/12/13/gh60/订单记录/" title="" itemprop="url">
-  
-    <h1 itemprop="name"></h1>
-    
-     
-           <p itemprop="description" >LED:
-
-冰 蓝：30
-青：20
-紫罗兰：20
-
-轴：
-
-红轴：25
-青轴：5
-茶轴：35
-
-热插拔：200
-壳子： 银色
-平衡杆+卫星轴</p>
-        
-    
-    <time datetime="2015-12-13T06:33:17.000Z" itemprop="datePublished">2015-12-13</time>
-  </a>
-</section>
-
-
-
-
-
-
-  
-<section class="post" itemscope itemprop="blogitem">
-  
-    <a href="/2015/12/13/gh60/gh60折腾计/" title="" itemprop="url">
-  
-    <h1 itemprop="name"></h1>
-    
-     
-           <p itemprop="description" >&lt;!DOCTYPE html&gt;
-
-  
-      
-      gh60折腾计
-      .markdown-preview, .markdown-preview[data-use-github-style] { font-family: &#39;Helvetica Neue&#39;, </p>
-        
-    
-    <time datetime="2015-12-13T06:33:17.000Z" itemprop="datePublished">2015-12-13</time>
-  </a>
-</section>
-
-
-
-
-
-
-  
-<section class="post" itemscope itemprop="blogitem">
-  
-    <a href="/2015/11/29/toStudents/" title="toStudents" itemprop="url">
-  
-    <h1 itemprop="name">toStudents</h1>
-    
-     
-           <p itemprop="description" >各位师弟师妹大家好，我叫陈浩，也是安老师的学生，我是2007年初中毕业的，差不多比你们大十岁。。。不过我算了一下，你们应该也是90后吧。。。好吧我也是哈哈。听老师说你们明年就要中考了，先祝你们都能取得好成绩！之前老师说让我写点什么鼓励鼓励你们，因为一直很忙，所以就拖到了现在，不好</p>
-        
-    
-    <time datetime="2015-11-29T12:25:49.000Z" itemprop="datePublished">2015-11-29</time>
-  </a>
-</section>
-
-
-
-
-
-
-  
-<section class="post" itemscope itemprop="blogitem">
-  
-    <a href="/2015/11/27/反省/" title="反省" itemprop="url">
-  
-    <h1 itemprop="name">反省</h1>
-    
-     
-           <p itemprop="description" >真的需要反省一下了。这一周几乎又什么都没干。论文几乎没动，书也没怎么看，内核几乎扔下了，python没学出什么东西，代码也没写几行。每天晚上就在那耗时间。好多事情都需要做却都没做，唉。</p>
-        
-    
-    <time datetime="2015-11-26T17:05:36.000Z" itemprop="datePublished">2015-11-27</time>
-  </a>
-</section>
-
-
-
-
-
-
-  
-<section class="post" itemscope itemprop="blogitem">
-  
-    <a href="/2015/11/16/C语言的一些语法/" title="C语言的一些语法" itemprop="url">
-  
-    <h1 itemprop="name">C语言的一些语法</h1>
-    
-     
-           <p itemprop="description" >C语言的一些语法最近在看Linux内核，发现内核代码中有一些语法之前都没怎么接触过，特意查了一下，做个总结。主要有以下几个:
-
-内联函数
-satic函数
-函数指针与指针函数
-带参数的宏定义
-typdef用法
-void指针</p>
-        
-    
-    <time datetime="2015-11-15T16:24:24.000Z" itemprop="datePublished">2015-11-16</time>
-  </a>
-</section>
-
-
-
-
-
-
-  
-<section class="post" itemscope itemprop="blogitem">
-  
-    <a href="/2015/11/14/First-blood/" title="First blood" itemprop="url">
-  
-    <h1 itemprop="name">First blood</h1>
-    
-     
-           <p itemprop="description" >搭建了个博客为什么要搭建这么博客平台怎么说呢，最近一直想搭这么个平台，一直觉得，学计算机的人写博客应该是一件必要且装逼的事情，所以我高了好久弄了这东西。之前一直想用jekyll，但是试了几次都没成功，算了，不浪费那时间，然后转了hexo，然后就有了这个。现在呢，还很丑，慢慢调教吧</p>
-        
-    
-    <time datetime="2015-11-13T17:55:44.000Z" itemprop="datePublished">2015-11-14</time>
-  </a>
-</section>
-
-
-
-
-
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
 
 
 </div>
+
+
+
+	<div class="article-share" id="share">
+	
+	<div class="share-jiathis">
+	  
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_googleplus"></a>
+	<a class="jiathis_button_douban"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+    var jiathis_config={
+    data_track_clickback:true,
+    sm:"copy,renren,cqq",
+    pic:"",
+    summary:"",
+    
+  </script> 
+<script type="text/javascript" src="//v3.jiathis.com/code/jia.js?uid=
+" charset="utf-8"></script>      
+
+	 </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/11/27/反省/" title="反省">
+  <strong>上一篇：</strong><br/>
+  <span>
+  反省</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2015/11/14/First-blood/"  title="First blood">
+ <strong>下一篇：</strong><br/> 
+ <span>First blood
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+
+</div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#C语言的一些语法"><span class="toc-number">1.</span> <span class="toc-text">C语言的一些语法</span></a></li></ol>
+ 
+  </div>
 
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
@@ -375,8 +338,36 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
         
     }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
   });
 });
 </script>
@@ -446,4 +437,4 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 <!-- Tiny_search End -->
 
   </body>
- </html>
+</html>
